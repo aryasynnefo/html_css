@@ -117,13 +117,197 @@
     
 }
 
+/* --------students------------ */
+
+.students{
+    text-align: center;
+    padding-top: 100px;
+    margin: auto;
+    color: black;
+}
+
+.students{
+    background-color: white;
+}
+
+.stud-col{
+    width: 50%;
+    text-align: justify;
+    padding: 25px;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.stud-col img{
+    width: 300px;
+    height: 200px;
+    border-radius:100%;
+}
+
+.stud-col p{
+    padding: 0;
+    margin-top: 50px;
+    color: white;
+    
+}
+
+.stud-col h3{
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+}
 
 
+.contact{
+    margin: auto;
+    width: 50%;
+    background-image: url(../images/contact.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: right;
+    padding: 100px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.conbt{
+    text-decoration: none;
+    border: 1px solid white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    background: transparent;
+}
+.conbt:hover{
+    border: 1px solid black;
+    background: rgb(229, 27, 229);;
+    transition: 1s;
+}
+
+
+.footer{
+    height: 200px;
+    background-color: gray;
+    color: black;
+    text-align: justify;
+}
+.footer ul{
+    padding: 20px;
+}
+.footer p{
+    text-align: center;
+}
+
+
+/* ----------about--------- */
+
+.about{
+    background-image: url(../images/st.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.txt h1{
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+}
+.txt p{
+    text-align: justify;
+}
+
+.abt img{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+.main-course{
+background-color: black;
+
+}
 
 
 
 @media(min-width:400px) and (max-width:767.98px){
     .text h1{
         font-size: 20px;
+        text-align: right;
     }   
+
+    .text p{
+        font-size: 12px;
+        text-align: right;
+    }
+
+
+    .bt{
+       margin-left: 130px;
+        text-decoration: none;
+        border: 1px solid white;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 10px;
+        background: transparent;
+        color: rgb(229, 27, 229);
+    }
+
+
+    .navs ul{
+        display: none;
+       
+    }
+
+
+
+    /* -----campus---- */
+
+    .img1{
+        width:300px;
+        height: auto;
+        border-radius: 5px;
+    }
+    .img2{
+        width: 280px;
+        height: auto;
+        border-radius: 5px;
+        
+    
+    
+    }
+    .img3{
+        width: 320px;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .contact{
+        margin: auto;
+        width: 50%;
+        background-image: url(../images/contact.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        text-align:center;
+        padding: 100px;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .footer{
+        height: 200px;
+        background-color: gray;
+        color: black;
+        text-align: justify;
+        height: 430px;
+    }
+
 }
